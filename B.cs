@@ -8,7 +8,7 @@ public class B
     public B(string name)
     {
         Console.WriteLine($"Constructor B called with name: {name}");
-        Name = name + "B";
+        Name = name ;
     }
     public string Name { get;}
 }
